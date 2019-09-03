@@ -54,27 +54,28 @@ def create(item):
     # Create item code here
 
 # READ
-def read(index):
+    def read(index):
 # Read code here
 
 # UPDATE
-def update(index, item):
+    def update(index, item):
 # Update code here
 
 # DESTROY
-def destroy(index):
+    def destroy(index):
     # Destroy code here
                 
-def list_all_items():
+    def list_all_items():
 # Code to list all items in list
                     
-def test(): #create a function that will house all of our testing code. 
+    def test(): #create a function that will house all of our testing code. 
     # Add your testing code here
                     
-test()
+    test()
                     
    def test():
 #     #days of the week
+#     create(days of the week)
 #     create("Monday")
 #     create("Tuesday")
 #     create("Wednesday")
@@ -84,6 +85,7 @@ test()
 #     create("Sunday")
     
 #     #colours
+#create(list of colors)
 #     create("red")
 #     create("orange")
 #     create("yellow")
@@ -93,6 +95,7 @@ test()
 #     create("indigo")
 
         # #items of clothing
+        #create(items of  clothing)
         # create("left shoe")
         # create ("right shoe")
         # create("left sock")
@@ -101,11 +104,15 @@ test()
         # create ("shirt")
         # create ("jacket")
 
+# for (days of the week + items of clothing);
+#     color
 
 
+  #for each day + each item of clothing, choose a color that is not the same as another color chosen that day
 
-    #create days of week
-    #create articles of clothing
-    #create colours
- 
+  #for each item 
+    #for each day
+     #for each item of clothing
+       # print item of clothing specific to day
 
+print("Hello World")
