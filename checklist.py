@@ -45,9 +45,20 @@ def select(function_code):
         #remember thet the item_index must actually exist or program will crash
         read(item_index)
         
-    #print all items
+        #update index item
+    elif function_code == "U":
+        update_index = user_input("index number? ")
+        update_name = user_input("new name ")
+        update(int(update_index), update_name)
+        
+        #destroy index item
+    elif function_code == "D":
+        index = int(user_input("index:"))
+        destroy(index)
+        
+        #print all items
     elif function_code == "P":
-        list_all_items()
+        list_all_items()  
         
     elif function_code == "Q":
         #this is where we want to stop our loop
@@ -87,5 +98,6 @@ test()
 running = True
 while running: #conditional that keeps it running while True or until False
     selection = user_input(
-        "Press C to add to list, R to read from list, P to display list, and Q to quit ")
+        """Press C to add to list, R to read from list, P to display list, U to update the list, 
+        D to destroy an item from the list, and Q to quit """)
     running = select(selection)
