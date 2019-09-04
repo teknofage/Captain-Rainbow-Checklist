@@ -33,8 +33,25 @@ def list_all_items():
 
 
 def select(function_code):
-    ...
+    #create item
+    if function_code == "C":
+        input_item = user_input("Input item:")
+        create(input_item)
+    
+    #read item
+    elif function_code == "R":
+        item_index = user_input("Index Number?")
+        
+        #remember thet the item_index must actually exist or program will crash
+        read(item_index)
+        
+    #print all items
+    elif function_code == "P":
+        list_all_items()
 
+    #catch all
+    else:
+        print("Unknown Option")
 
 def user_input(prompt):
     pass
