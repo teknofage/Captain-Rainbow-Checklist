@@ -1,6 +1,6 @@
 #found at http://www.siafoo.net/snippet/88
 
-
+rainbowlist = list()  # creates Checklist
 
 def rainbow():
 #'s
@@ -21,3 +21,7 @@ def rainbow():
     print '\033[1;46mHighlighted Cyan like Caribbean\033[1;m'
     print '\033[1;47mHighlighted Gray like Ghost\033[1;m'
     print '\033[1;48mHighlighted Crimson like Chianti\033[1;m'
+    
+
+rainbowlist()
+    return random.choice() #https://pynative.com/python-random-choice/
