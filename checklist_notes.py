@@ -51,29 +51,30 @@ checklist = list()
 
 # CREATE
 def create(item):
-    # Create item code here
+   checklist.append('Monday')
+print(checklist) # Create item code here
 
 # READ
-    def read(index):
-# Read code here
+def read(index):
+    # Read code here
 
 # UPDATE
-    def update(index, item):
-# Update code here
+def update(index, item):
+    # Update code here
 
 # DESTROY
-    def destroy(index):
+def destroy(index):
     # Destroy code here
                 
-    def list_all_items():
-# Code to list all items in list
+def list_all_items():
+    # Code to list all items in list
                     
-    def test(): #create a function that will house all of our testing code. 
+def test(): #create a function that will house all of our testing code. 
     # Add your testing code here
                     
-    test()
+test()
                     
-   def test():
+def test():
 #     #days of the week
 #     create(days of the week)
 #     create("Monday")
@@ -95,7 +96,7 @@ def create(item):
 #     create("indigo")
 
         # #items of clothing
-        #create(items of  clothing)
+        #create(items of clothing)
         # create("left shoe")
         # create ("right shoe")
         # create("left sock")
