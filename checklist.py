@@ -1,5 +1,5 @@
 import sys
-sys.stdout.write("\033[0;95m")
+sys.stdout.write("\033[0;95m") 
 
 checklist = list()  # creates Checklist
 
